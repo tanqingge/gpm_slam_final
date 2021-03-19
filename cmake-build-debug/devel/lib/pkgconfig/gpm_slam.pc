@@ -1,0 +1,8 @@
+prefix=/home/tanqingge/catkin_ws/src/gpm_slam/cmake-build-debug/devel
+
+Name: gpm_slam
+Description: Description of gpm_slam
+Version: 0.0.0
+Cflags: -I/home/tanqingge/catkin_ws/src/gpm_slam/cmake-build-debug/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

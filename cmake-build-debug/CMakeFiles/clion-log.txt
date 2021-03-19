@@ -1,0 +1,414 @@
+/home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tanqingge/catkin_ws/src/gpm_slam
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.2.92
+-- Found Eigen: /usr/include/eigen3  
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Boost: /usr/include (found suitable version "1.58.0", minimum required is "1.55.0") found components: system filesystem thread date_time iostreams serialization chrono atomic regex 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:176 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:309 (find_openni)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:531 (find_external_library)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:190 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:311 (find_openni2)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:531 (find_external_library)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:278 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:323 (find_libusb)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:531 (find_external_library)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found libusb-1.0: /usr/include  
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Checking for module 'flann'
+--   Found flann, version 1.8.4
+-- FLANN found (include: , lib: flann_cpp)
+-- FLANN found (include: , lib: flann_cpp)
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:176 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:309 (find_openni)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:531 (find_external_library)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:190 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:311 (find_openni2)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:531 (find_external_library)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:176 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:309 (find_openni)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:531 (find_external_library)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+-- looking for PCL_IO
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:602 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_GEOMETRY: /usr/local/include/pcl-1.9  
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+-- looking for PCL_2D
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:602 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_2D: /usr/local/include/pcl-1.9  
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+-- looking for PCL_ML
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+-- looking for PCL_STEREO
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+-- looking for PCL_APPS
+CMake Warning (dev) at /home/tanqingge/Downloads/clion-2020.3.2/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:599 (find_package_handle_standard_args)
+  CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_APPS: /usr/local/lib/libpcl_apps.so  
+-- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_visualization;pcl_outofcore;pcl_features;pcl_ml;pcl_segmentation;pcl_people;pcl_keypoints;pcl_stereo;pcl_surface;pcl_registration;pcl_recognition;pcl_tracking;pcl_apps;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;flann_cpp;vtksys;vtkCommonCore;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonDataModel;vtkCommonColor;vtkCommonExecutionModel;vtkCommonComputationalGeometry;vtkFiltersCore;vtkFiltersGeneral;vtkImagingCore;vtkImagingFourier;vtkFiltersStatistics;vtkFiltersExtraction;vtkInfovisCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingCore;vtkzlib;vtkfreetype;vtkRenderingFreeType;vtkRenderingContext2D;vtkChartsCore;vtkDICOMParser;vtkdoubleconversion;vtklz4;vtklzma;vtkIOCore;vtkIOLegacy;vtkexpat;vtkIOXMLParser;vtkDomainsChemistry;vtkglew;vtkRenderingOpenGL2;vtkDomainsChemistryOpenGL2;vtkIOXML;vtkParallelCore;vtkFiltersAMR;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkImagingSources;vtkFiltersHybrid;vtkFiltersHyperTree;vtkImagingGeneral;vtkFiltersImaging;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelImaging;vtkFiltersPoints;vtkFiltersProgrammable;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersTopology;verdict;vtkFiltersVerdict;vtkInteractionStyle;vtkGUISupportQt;vtksqlite;vtkIOSQL;vtkGUISupportQtSQL;vtkmetaio;vtkjpeg;vtkpng;vtktiff;vtkIOImage;vtkImagingHybrid;vtkInfovisLayout;vtkImagingColor;vtkRenderingAnnotation;vtkRenderingVolume;vtkInteractionWidgets;vtkViewsCore;vtklibproj;vtkGeovisCore;vtkhdf5_src;vtkhdf5_hl_src;vtkIOAMR;vtkIOAsynchronous;vtkpugixml;vtkIOCityGML;vtkIOEnSight;vtknetcdf;vtkexodusII;vtkIOExodus;vtkgl2ps;vtkRenderingGL2PSOpenGL2;vtkIOExport;vtkIOExportOpenGL2;vtklibharu;vtkIOExportPDF;vtkIOGeometry;vtkIOImport;vtklibxml2;vtkIOInfovis;vtkIOLSDyna;vtkIOMINC;vtkogg;vtktheora;vtkIOMovie;vtkIONetCDF;vtkIOPLY;vtkjsoncpp;vtkIOParallel;vtkIOParallelXML;vtkIOSegY;vtkIOTecplotTable;vtkIOVeraOut;vtkIOVideo;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkRenderingContextOpenGL2;vtkRenderingImage;vtkRenderingLOD;vtkRenderingLabel;vtkRenderingQt;vtkRenderingVolumeOpenGL2;vtkViewsContext2D;vtkViewsInfovis;vtkViewsQt  
+-- Using CATKIN_DEVEL_PREFIX: /home/tanqingge/catkin_ws/src/gpm_slam/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/tanqingge/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/tanqingge/catkin_ws/devel;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/tanqingge/catkin_ws/src/gpm_slam/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- gpm_slam: 1 messages, 0 services
+-- Found OpenCV: /usr/local (found suitable version "3.4.5", minimum required is "3.4.5") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tanqingge/catkin_ws/src/gpm_slam/cmake-build-debug

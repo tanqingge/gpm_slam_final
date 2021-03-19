@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tanqingge/catkin_ws/src/gpm_slam/cmake-build-debug/devel/setup.sh
